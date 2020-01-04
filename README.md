@@ -1,3 +1,4 @@
+![example.png](example.png)
 # Py-Dijkstra
 Simple python implementation of dijkstra shortest path algorithm
 
