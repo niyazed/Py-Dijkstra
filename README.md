@@ -21,12 +21,9 @@ Take input from text file like below -
 
 
 #### Example - 
-
-```python
-    $ python dijkstra.py inputs.txt a d
-```
-
 ```sh
+> python dijkstra.py inputs.txt a d
+
 Graph: 
 -------
 {'a': {'c': 9, 'b': 2, 'd': 8}, 'c': {'d': 1}, 'b': {'a': 3, 'c': 4}}
