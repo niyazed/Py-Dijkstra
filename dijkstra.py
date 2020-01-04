@@ -1,4 +1,3 @@
-# graph = {'a': {'c': 9, 'b': 2, 'd': 8}, 'c': {'d': 1}, 'b': {'a': 3, 'c': 4}}
 import sys
 
 
@@ -67,9 +66,8 @@ try:
     print(graph)
 
     print("\nShortest Paths: \n---------------")
-    dijkstra(init_graph(), 'a', 'b')
-    dijkstra(init_graph(), 'a', 'c')
-    dijkstra(init_graph(), 'a', 'd')
+    dijkstra(init_graph(), sys.argv[2], sys.argv[3])
+
 
 except:
     print("Invalid input, please try again")
