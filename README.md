@@ -2,7 +2,7 @@
 # Py-Dijkstra
 Simple python implementation of dijkstra shortest path algorithm
 
-# Instructions
+### Instructions
 `inputs.txt` file looks like this -
 ```
 a b 2
@@ -20,7 +20,7 @@ Take input from text file like below -
 ```
 
 
-#### Example - 
+##### Example - 
 ```sh
 > python dijkstra.py inputs.txt a d
 
