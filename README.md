@@ -16,10 +16,16 @@ c d 1
 Take input from text file like below - 
 
 ```python
-    $ python dijkstra.py inputs.txt
+    $ python dijkstra.py <filename.txt> <src> <dest>
 ```
 
-Output - 
+
+#### Example - 
+
+```python
+    $ python dijkstra.py inputs.txt a d
+```
+
 ```sh
 Graph: 
 -------
@@ -27,7 +33,5 @@ Graph:
 
 Shortest Paths: 
 ---------------
-a -> b : 2
-a -> b -> c : 6
 a -> b -> c -> d : 7
 ```
