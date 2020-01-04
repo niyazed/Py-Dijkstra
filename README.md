@@ -15,7 +15,7 @@ c d 1
 Take input from text file like below - 
 
 ```python
-$ python dijkstra.py inputs.txt
+    $ python dijkstra.py inputs.txt
 ```
 
 Output - 
